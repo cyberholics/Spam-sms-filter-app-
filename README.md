@@ -1,4 +1,4 @@
-### About this project
+# About this project
 
 Spam messages are unsolicited and unwanted messages. Fraudsters use spam messages to trick people into giving them your personal information — things like your password, account number, or even credit card information.
 
@@ -14,5 +14,7 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 - Deployed the prediction model as a web service using [Bentoml](https://www.bentoml.com/) *Why i used bentoml*
 
 
-### Project files and folder explained 
-https://archive.ics.uci.edu/dataset/228/sms+spam+collection
+# Project files and folder explained 
+
+### SMSSpamCollection
+> This is a dataset of 5,572 SMS stored as a CSV file. The data was gotten from [The UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/228/sms+spam+collection)
