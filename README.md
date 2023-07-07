@@ -2,10 +2,16 @@
 
 Spam messages are unsolicited and unwanted messages. Fraudsters use spam messages to trick people into giving them your personal information — things like your password, account number, or even credit card information.
 
-These messages are designed in such a way people fall for them. This is because it is difficult for people with little knowledge about scams to determine if sms is from a scammer.
+These messages are designed in such a way people fall for it. This is because it is difficult for people with little knowledge about scams to determine if sms is from a scammer.
 
-In this project, I will build an application that can help determine if an SMS is spam or not. The project is all about teaching the computer how to classify messages. To do that, I will use the multinomial Naive Bayes algorithm along with a dataset of 5,572 SMS messages that are already classified by humans that understands what spam messages are.
+In this project, I will build an application that can help determine if an SMS is spam or not. The project is all about teaching the computer how to classify SMS as spam or not spam in order to help us determine whether an SMS is spam or not. To do that, I will use the **Multinomial Naive Bayes algorithm** along with a dataset of 5,572 SMS messages that are already classified by humans.
+
+For this project, my goal is to create a spam filter that classifies new messages with an accuracy greater than 80% — so i expect that more than 80% of the new messages will be classified correctly as spam or ham (non-spam).
+
 THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
+
+
+
 
 # Project files and folder explained 
 
