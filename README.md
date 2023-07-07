@@ -5,7 +5,7 @@ Spam messages are unsolicited and unwanted messages. Fraudstars use spam message
 These messages are designed such a way people fall for it. This is because it is difficult for people with little knowledge about scams to determine if an sms is from a scammer.
 
 In this project, I will build an application that can help determine if an SMS is spam or not. The project is all about teaching the computer how to classify messages. To do that, i will use the multinomial Naive Bayes algorithm along with a dataset of 5,572 SMS messages that are already classified by humans that understands what spam messages are.
-THIS IS A CLASSIFICATION PROBLEM
+THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 
 ### Summary of the project
 - Idenified a problem that can be solved with machine learning (Spam sms detection) 
