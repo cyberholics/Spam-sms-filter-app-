@@ -41,9 +41,6 @@ data_test["SMS"]=data_test["SMS"].str.lower()
 
 
 # data transformation
-v = CountVectorizer()
-X_train = v.fit_transform(data_train['SMS'])
-X_test = v.fit_transform(data_test['SMS'])
 vectorizer = CountVectorizer()
 X_train_encoded = vectorizer.fit_transform(data_train['SMS'])
 X_test_encoded = vectorizer.transform(data_test['SMS'])
@@ -58,6 +55,7 @@ print("Accuracy:", accuracy)
 print("model is trained")
 
 #saving the trained model to disk
-saved_model=bentoml.sklearn.save_model("naive_bayes",nb_model)
-print("saved_model")
+saved_model=bentoml.sklearn.save_model("naive_bayes_model",nb_model , custom_objects={"countvectorizer":vectorizer})
+saved_model
+
 print("model is saved")
