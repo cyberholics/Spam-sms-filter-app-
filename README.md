@@ -13,7 +13,7 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 
 
 
-# Project files and folder explained 
+# Project files and folders explained 
 
 ### SMSSpamCollection
 > This is a dataset of 5,572 SMS stored as a CSV file. The data was gotten from [The UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/228/sms+spam+collection)
@@ -23,6 +23,6 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 
 # Summary of the project
 - Identified a problem that can be solved with machine learning (Spam sms detection) 
-- Trained a multinomial Naive Bayes algorithm that can predict spam SMS from normal SMS using a dataset of 5,572 SMS labelled by humans.
+- Trained a multinomial Naive Bayes algorithm that can predict spam SMS from normal SMS using a dataset of 5,572 SMS labeled by humans.
 
-- Deployed the prediction model as a web service using [Bentoml](https://www.bentoml.com/) *Why I used bentoml*
+- Deployed the prediction model as a web service using [Bentoml](https://www.bentoml.com/) *Why I used bentoml* 
