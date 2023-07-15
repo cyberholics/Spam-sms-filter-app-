@@ -2,11 +2,11 @@
 
 Spam messages are unsolicited and unwanted messages. Fraudsters use spam messages to trick people into giving them their personal information—things like their password, account number, or even credit card information.
 
-These messages are designed in such a way people fall for them. This is because it is difficult for people with little knowledge about scams to determine if sms is from a scammer.
+These messages are designed in such a way that people fall for them. This is because it is difficult for people with little knowledge about scams to determine if an SMS is from a scammer.
 
-In this project, I will build an application that can help determine if an SMS is spam or not. The project is all about teaching the computer how to classify SMS as spam or not spam in order to help us determine whether an SMS is spam or not. To do that, I will use the **Multinomial Naive Bayes algorithm** along with a dataset of 5,572 SMS messages that are already classified by humans.
+In this project, I will build an application that can help determine if an SMS is spam or not. The project is all about teaching the computer how to classify SMS as spam or not in order to help us determine whether an SMS is spam or not. To do that, I will use the **Multinomial Naive Bayes algorithm** along with a dataset of 5,572 SMS messages that have already been classified by humans.
 
-For this project, my goal is to create a spam filter that classifies new messages with an accuracy greater than 80% — so I expect that more than 80% of the new messages will be classified correctly as spam or ham (non-spam).
+For this project, my goal is to create a spam filter that classifies new messages with an accuracy greater than 80%, so I expect that more than 80% of the new messages will be classified correctly as spam or ham (non-spam).
 
 THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 
@@ -38,5 +38,5 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 - Trained a multinomial Naive Bayes algorithm that can predict spam SMS from normal SMS using a dataset of 5,572 SMS labeled by humans.
 - Achieved 98% accuracy 
 - Deployed the prediction model as a web service using [Bentoml](https://www.bentoml.com/) 
-- Containerize the app with Docker
+- Containerize the Spam filter app with Docker
   
