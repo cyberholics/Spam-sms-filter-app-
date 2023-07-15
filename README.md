@@ -29,6 +29,9 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 
 ### train.py
 > This is a Python script used to train the spam detection model
+
+### technical article.md
+> This is a markdown file that shows you how to run this project on your own If youre curious to implement what I built
  
 # Summary of the project
 - Identified a problem that can be solved with machine learning (Spam sms detection) 
