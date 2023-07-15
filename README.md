@@ -22,19 +22,21 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 > This is a Jupyter notebook where I cleaned, analyzed, explored the dataset, and build my model. It is important you check it out to gain more insight into this project.
 
 ### bentoml.yaml
-> It is a bentofile for dependencies management; think of it like pipfile or requirement.txt.
+> It is a bentofile for dependencies management; think of it like a pipfile or requirement.txt.
 
 ### service.py
-> This is a web service built with bentoml
+> This is a web service built with bentoml.
 
 ### train.py
-> This is a Python script used to train the spam detection model
+> This is a Python script used to train the spam detection model.
 
 ### technical article.md
-> This is a markdown file that shows you how to run this project on your own If youre curious to implement what I built
+> This is a markdown file that shows you how to run this project on your own If you're curious to implement what I built.
  
 # Summary of the project
 - Identified a problem that can be solved with machine learning (Spam sms detection) 
 - Trained a multinomial Naive Bayes algorithm that can predict spam SMS from normal SMS using a dataset of 5,572 SMS labeled by humans.
-
-- Deployed the prediction model as a web service using [Bentoml](https://www.bentoml.com/) *Why I used bentoml* 
+- Achieved 98% accuracy 
+- Deployed the prediction model as a web service using [Bentoml](https://www.bentoml.com/) 
+- Containerize the app with Docker
+  
