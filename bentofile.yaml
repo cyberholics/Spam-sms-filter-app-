@@ -1,0 +1,8 @@
+service: "service:svc"  
+labels:
+    owner: cyberholics
+include:
+- "*.py"  
+python:
+    packages:  # Additional pip packages required by the service
+    - scikit-learn
