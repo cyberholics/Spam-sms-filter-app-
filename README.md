@@ -25,7 +25,11 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 > It is a bentofile for dependencies management; think of it like pipfile or requirement.txt.
 
 ### service.py
+> This is a web service built with bentoml
 
+### train.py
+> This is a Python script used to train the spam detection model
+ 
 # Summary of the project
 - Identified a problem that can be solved with machine learning (Spam sms detection) 
 - Trained a multinomial Naive Bayes algorithm that can predict spam SMS from normal SMS using a dataset of 5,572 SMS labeled by humans.
