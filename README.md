@@ -21,6 +21,11 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 ### spam filter with naive bayes.ipynb
 > This is a Jupyter notebook where I cleaned, analyzed, explored the dataset, and build my model. It is important you check it out to gain more insight into this project.
 
+### bentoml.yaml
+> It is a bentofile for dependencies management; think of it like pipfile or requirement.txt.
+
+### service.py
+
 # Summary of the project
 - Identified a problem that can be solved with machine learning (Spam sms detection) 
 - Trained a multinomial Naive Bayes algorithm that can predict spam SMS from normal SMS using a dataset of 5,572 SMS labeled by humans.
