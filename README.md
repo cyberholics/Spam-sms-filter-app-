@@ -19,7 +19,7 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 > This is a dataset of 5,572 SMS stored as a CSV file. The data was gotten from [The UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/228/sms+spam+collection)
 
 ### spam filter with naive bayes.ipynb
-> This is a Jupyter notebook where I cleaned, analyzed, explored the dataset, and build my model. It is important you check it out to gain more insight into this project.
+> This is a Jupyter notebook where I cleaned, analyzed, explored the dataset, and built my model. It is important that you check it out to gain more insight into this project.
 
 ### bentoml.yaml
 > It is a bentofile for dependencies management; think of it like a pipfile or requirement.txt.
