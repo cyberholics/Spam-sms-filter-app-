@@ -25,7 +25,7 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 > It is a bentofile for dependencies management; think of it like a pipfile or requirement.txt.
 
 ### service.py
-> This is a web service built with bentoml.
+> This is a web service built with Bentoml to interact with the model API.
 
 ### train.py
 > This is a Python script used to train the spam detection model.
