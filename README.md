@@ -37,6 +37,6 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 - Identified a problem that can be solved with machine learning (Spam sms detection) 
 - Trained a multinomial Naive Bayes algorithm that can predict spam SMS from normal SMS using a dataset of 5,572 SMS labeled by humans.
 - Achieved 98% accuracy 
-- Deployed the prediction model as a web service using [Bentoml](https://www.bentoml.com/) 
+- Deployed the prediction model as a web service using [BentoML](https://www.bentoml.com/) 
 - Containerize the Spam filter app with Docker
   
