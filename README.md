@@ -47,7 +47,7 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 
 ### Frontend:
 
-The frontend is built using Streamlit[https://streamlit.io/], a Python web framework for creating interactive web applications.
+The frontend is built using Streamlit(https://streamlit.io/), a Python web framework for creating interactive web applications.
 It provides a user-friendly interface for users to interact with the spam message detection model.
 The Streamlit app is hosted on a local development server and can be accessed via a specific URL (http://localhost:8501/).
 
