@@ -39,4 +39,5 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 - Achieved 98% accuracy 
 - Deployed the prediction model as a web service using [BentoML](https://www.bentoml.com/) 
 - Containerize the Spam filter app with Docker
+- Deployed the container to cloud using [AWS Elastic Container Registry](https://github.com/dimzachar/mlzoomcamp/blob/master/Notes/cloud.md)
   
