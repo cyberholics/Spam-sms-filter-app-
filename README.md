@@ -74,7 +74,8 @@ The backend service is hosted at IP 52.91.134.109 and exposed on port 3000.
 
 ## Testing the App
 
-https://github.com/cyberholics/Spam-sms-filter-app-/assets/90475662/f0177aef-c3f8-4bae-9e14-25f146594807
+[![ New Messages Filter](https://img.youtube.com/vi/eMt6svANxjM/0.jpg)](https://youtu.be/eMt6svANxjM)
+
 
 
 
