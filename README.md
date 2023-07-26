@@ -74,5 +74,6 @@ The backend service is hosted at IP 52.91.134.109 and exposed on port 3000.
 
 ## Testing the App
 
-[Dectecing messages with streamlit UI](https://youtu.be/eMt6svANxjM)
+[Detecting messages with streamlit UI](https://youtu.be/eMt6svANxjM) 
+
 
