@@ -41,8 +41,9 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 - Containerize the Spam filter app with Docker
 - Deployed the container to cloud using [AWS Elastic Container Registry](https://github.com/dimzachar/mlzoomcamp/blob/master/Notes/cloud.md)
 - I built a streamlit app to interact with the model
+  
 
-  # Application Structure:
+# Application Structure:
 
 ### Frontend:
 
