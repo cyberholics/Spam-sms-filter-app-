@@ -62,7 +62,7 @@ The backend service is hosted at IP 52.91.134.109 and exposed on port 3000.
 - Users access the Streamlit app's frontend through the  URL ( http://localhost:8501/).
 - On the Streamlit app's frontend, users see a text area where they can input their messages.
 - After entering a message, users can click the "Detect Spam" button to initiate the prediction process.
-- When the "Detect Spam" button is clicked, the Streamlit app on the frontend sends an HTTP POST request to the backend spam message detection service at http://52.91.134.109:3000/predict.
+- When the "Detect Spam" button is clicked, the Streamlit app on the frontend sends an HTTP POST request to the backend spam message detection service at http://52.91.134.109:3000/classify_sms.
 - The backend service processes the incoming message and returns the prediction result (whether the message is spam or not) to the Streamlit app on the frontend.
 - The Streamlit app then displays the prediction result to the user, indicating whether the message is classified as spam or not.
 
