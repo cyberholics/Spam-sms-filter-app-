@@ -40,4 +40,34 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 - Deployed the prediction model as a web service using [BentoML](https://www.bentoml.com/) 
 - Containerize the Spam filter app with Docker
 - Deployed the container to cloud using [AWS Elastic Container Registry](https://github.com/dimzachar/mlzoomcamp/blob/master/Notes/cloud.md)
-  
+- I built a streamlit app to interact with the model
+
+  # Application Structure:
+
+### Frontend:
+
+The frontend is built using Streamlit, a Python web framework for creating interactive web applications.
+It provides a user-friendly interface for users to interact with the spam message detection model.
+The Streamlit app is hosted on a local development server and can be accessed via a specific URL (http://localhost:8501/).
+
+### Backend:
+
+The backend spam message detection service is  hosted on AWS infrastructure.
+It is responsible for processing incoming messages and predicting whether they are spam or not.
+The backend service is hosted at IP 52.91.134.109 and exposed on port 3000.
+
+### Workflow:
+
+- Users access the Streamlit app's frontend through the  URL ( http://localhost:8501/).
+- On the Streamlit app's frontend, users see a text area where they can input their messages.
+- After entering a message, users can click the "Detect Spam" button to initiate the prediction process.
+- When the "Detect Spam" button is clicked, the Streamlit app on the frontend sends an HTTP POST request to the backend spam message detection service at http://52.91.134.109:3000/predict.
+- The backend service processes the incoming message and returns the prediction result (whether the message is spam or not) to the Streamlit app on the frontend.
+- The Streamlit app then displays the prediction result to the user, indicating whether the message is classified as spam or not.
+
+### Deployment:
+
+- The Streamlit app's frontend is running on my local development server and can be accessed locally using the URL http://localhost:8501/.
+- The backend spam message detection service is deployed on AWS  and is accessible at the IP address 52.91.134.109 on port 3000.
+
+
