@@ -58,7 +58,7 @@ The Streamlit app is hosted on a local development server and can be accessed vi
 
 The backend spam message detection service is  hosted on AWS infrastructure.
 It is responsible for processing incoming messages and predicting whether they are spam or not.
-The backend service is hosted at IP 52.91.134.109 and exposed on port 3000.
+The backend service is hosted at (IP 52.91.134.109) and exposed on port (3000).
 
 ### Workflow:
 
