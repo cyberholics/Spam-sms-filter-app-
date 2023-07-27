@@ -34,7 +34,7 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 > This is a script for building the frontend app with streamlit
 > 
 ### technical article.md
-> This is a markdown file that shows you how to run this project on your own If you're curious to learn or implement what I built.
+> This is a markdown file that contains a link to a dev.to blog post where I show you how to run this project on your own If you're curious to learn or implement what I built.
  
 # Summary of the project
 - Identified a problem that can be solved with machine learning (Spam sms detection) 
