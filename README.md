@@ -22,14 +22,17 @@ THIS IS A MACHINE LEARNING CLASSIFICATION PROBLEM
 > This is a Jupyter notebook where I cleaned, analyzed, explored the dataset, and built my model. It is important that you check it out to gain more insight into this project.
 
 ### bentoml.yaml
-> It is a bentofile for dependencies management; think of it like a pipfile or requirement.txt.
+> It is a bentofile for dependency management; think of it like a pipfile or requirement.txt.
 
 ### service.py
 > This is a web service built with Bentoml to interact with the model API.
 
 ### train.py
 > This is a Python script used to train the spam detection model.
-
+> 
+### sreamlit_app.py
+> This is a script for building the frontend app with streamlit
+> 
 ### technical article.md
 > This is a markdown file that shows you how to run this project on your own If you're curious to learn or implement what I built.
  
